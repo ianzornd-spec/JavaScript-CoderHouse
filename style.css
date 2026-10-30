@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111318;
+    color: #f1f1f1;
+    padding: 35px;
+}
+
+.titulo {
+    color: #ff7518;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.bienvenida {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.campo {
+    background: #1d2028;
+    color: white;
+    border: 1px solid #383d48;
+    border-radius: 7px;
+    padding: 12px;
+    margin: 0 5px 15px 0;
+    outline: none;
+}
+
+.campo:focus{
+    border-color: #ff7518;
+}
+
+.boton {
+    background: #ff7518;
+    color: #111318;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #ff974d;
+}
+
+.buscador {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    background: #1d2028;
+    color: white;
+    border: 1px solid #383d48;
+    border-radius: 7px;
+    padding: 13px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.titulo-inventario {
+    margin: 30px 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ff7518;
+}
+
+
+
+
+
+.inventario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+
+
+
+
+
+.moto {
+    width: 100%;
+    background: #1b1e26;
+    border: 1px solid #303541;
+    border-left: 4px solid #ff7518;
+    border-radius: 8px;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.moto:hover {
+    background: #222631;
+    border-left-color: #ffa15e;
+}
+
+.moto h3 {
+    color: #ff7518;
+    margin-bottom: 10px;
+}
+
+.moto p {
+    color: #c4c7cf;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+.boton-eliminar {
+    background: #e53935;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 16px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.boton-eliminar:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
+}
